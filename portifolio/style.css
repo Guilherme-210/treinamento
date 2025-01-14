@@ -1,0 +1,109 @@
+/* ===== Reset Geral ===== */
+* {
+  border: 0;
+  padding: 0;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+/* ===== Estilo do Body ===== */
+body {
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ===Estilo do header=== */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: center;
+  top: 0;
+  z-index: 1000;
+  background-color: #333;
+  color: #fff;
+  padding: 20px ;
+}
+/* ==Estilo divs== */
+header div {
+  margin: auto;
+}
+/* ==Estilo imagem== */
+header img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 100px;
+  border: 2px solid #61dafb;
+  transition: transform 0.3s ease;
+}
+header img:hover {
+  transform: scale(1.1);
+}
+/* ==Estilo textos== */
+header h1 {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+header p {
+  display: block;
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+/* ===== Estilo projetos ===== */
+.projects {
+  margin-bottom: 20px;
+}
+.projects h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+.project {
+  background: #1e1e1e;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+}
+.project h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+.project p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+.project a {
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: 600;
+}
+.project a:hover {
+  color: #1b8ecf;
+}
+
+/* ===== Estilo do footer ===== */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-family: monospace;
+}
+footer p {
+  margin: 5px 0;
+}
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #1b8ecf;
+}
