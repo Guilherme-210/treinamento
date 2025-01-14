@@ -1,0 +1,104 @@
+/* === Estilo geral === */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hobbies {
+  flex: 1 1 30%;
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.hobbies li {
+  margin-bottom: 10px;
+}
+
+.images {
+  flex: 1 1 65%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+figure {
+  width: calc(50% - 10px);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1b1b1b;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+}
+
+figure figcaption {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #1b1b1b;
+  border-top: 1px solid #333;
+  width: 100%;
+}
+
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hobbies,
+  .images {
+    flex: 1 1 100%;
+  }
+
+  figure {
+    width: 100%;
+  }
+}

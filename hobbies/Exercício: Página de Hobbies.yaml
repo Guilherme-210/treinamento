@@ -1,0 +1,15 @@
+Exercício: Página Sobre Mim com Hobbies
+Crie uma página chamada sobre_mim.html onde você apresenta uma breve descrição sobre você, seus hobbies e uma galeria de imagens representando esses hobbies. A página deve conter:
+
+Requisitos do HTML:
+Um título da página no <title> que descreva o conteúdo.
+Uma seção com uma breve descrição sobre você (nome, idade, o que gosta de fazer).
+Uma lista (ordenada ou não) com pelo menos três hobbies.
+Uma galeria com três imagens representando seus hobbies, cada uma com uma legenda.
+Um rodapé com seus contatos (GitHub, LinkedIn ou outro).
+
+Requisitos do CSS:
+O layout deve ser centralizado e responsivo.
+Estilo com cores claras e agradáveis, ou tema escuro se preferir.
+Imagens redimensionadas para caber no layout sem quebrar.
+Um hover nas imagens, aumentando ligeiramente o tamanho com transição suave.
