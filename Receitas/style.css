@@ -1,0 +1,77 @@
+/* === Estilo geral === */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* === Estilo body === */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1 {
+  color: #FE9B07;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section,
+figure {
+  padding: 10px;
+}
+
+div {
+  margin: 8px;
+}
+
+figure {
+  width: calc(50% - 10px);
+  max-height: 80%;
+}
+figure img {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  width: 100%;
+  display: block;
+  margin: 20px;
+}
+
+.utensilios .ingredients {
+  list-style: none;
+}
+
+.preparo {
+  list-style: decimal;
+}
+
+li{
+  font-size: 18px;
+}
+ol {
+
+}
+.ingredients__img {
+  border-radius: 50%;
+  height: 40px;
+}

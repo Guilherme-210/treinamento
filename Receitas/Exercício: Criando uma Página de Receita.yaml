@@ -1,0 +1,20 @@
+Exercício: Criando uma Página de Receitas
+Objetivo: Crie uma página de receita que inclua o título do prato, uma imagem do prato, os ingredientes necessários e as instruções para preparar. Use HTML para a estrutura e CSS para estilizar.
+
+Especificações
+HTML
+
+Use uma estrutura semântica com as tags <header>, <main>, <section>, e <footer>.
+Inclua um título no <header> com o nome da receita.
+No <main>, adicione:
+Uma imagem do prato.
+Uma lista dos ingredientes usando <li> ou <li>.
+Um passo a passo com instruções usando <p> ou uma lista ordenada <li>.
+No <footer>, inclua:
+Seu nome como autor.
+Um link para o GitHub (ou outro site de sua escolha).
+CSS
+
+Estilize a página para torná-la agradável visualmente.
+Use bordas arredondadas, sombras, cores suaves e espaçamento adequado.
+Adicione responsividade para que a página se adapte a telas menores.
